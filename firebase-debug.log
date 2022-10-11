@@ -1,0 +1,90 @@
+[debug] [2022-01-29T11:22:05.411Z] ----------------------------------------------------------------------
+[debug] [2022-01-29T11:22:05.414Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ljuri\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-01-29T11:22:05.415Z] CLI Version:   10.1.2
+[debug] [2022-01-29T11:22:05.415Z] Platform:      win32
+[debug] [2022-01-29T11:22:05.415Z] Node Version:  v16.13.2
+[debug] [2022-01-29T11:22:05.421Z] Time:          Sat Jan 29 2022 12:22:05 GMT+0100 (Central European Standard Time)
+[debug] [2022-01-29T11:22:05.422Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-29T11:22:05.434Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as lj4252@g.rit.edu
+[debug] [2022-01-29T11:34:31.801Z] ----------------------------------------------------------------------
+[debug] [2022-01-29T11:34:31.803Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ljuri\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-01-29T11:34:31.804Z] CLI Version:   10.1.2
+[debug] [2022-01-29T11:34:31.804Z] Platform:      win32
+[debug] [2022-01-29T11:34:31.804Z] Node Version:  v16.13.2
+[debug] [2022-01-29T11:34:31.805Z] Time:          Sat Jan 29 2022 12:34:31 GMT+0100 (Central European Standard Time)
+[debug] [2022-01-29T11:34:31.805Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-29T11:34:31.808Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-01-29T11:34:31.831Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-29T11:34:31.832Z] > authorizing via signed-in user (lj4252@g.rit.edu)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ljuri\Desktop\WORK\senior-project-app
+
+[debug] [2022-01-29T11:34:34.280Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-01-29T11:34:34.280Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-04-22T12:34:02.126Z] ----------------------------------------------------------------------
+[debug] [2022-04-22T12:34:02.128Z] Command:       /usr/local/bin/node /usr/local/bin/firebase login
+[debug] [2022-04-22T12:34:02.129Z] CLI Version:   10.7.1
+[debug] [2022-04-22T12:34:02.129Z] Platform:      darwin
+[debug] [2022-04-22T12:34:02.129Z] Node Version:  v14.15.1
+[debug] [2022-04-22T12:34:02.137Z] Time:          Fri Apr 22 2022 14:34:02 GMT+0200 (Central European Summer Time)
+[debug] [2022-04-22T12:34:02.137Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-22T12:34:02.141Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2022-04-22T12:34:02.759Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-04-22T12:34:02.759Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-04-22T12:34:19.572Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:75:28)
+    at Interface._setRawMode (readline.js:298:16)
+    at Interface.close (readline.js:421:10)
+    at ReadStream.ontermend (readline.js:209:10)
+    at ReadStream.emit (events.js:327:22)
+    at ReadStream.EventEmitter.emit (domain.js:486:12)
+    at endReadableNT (_stream_readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-04-22T12:34:19.577Z] Error: write EIO
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at WriteStream.Socket._writeGeneric (net.js:785:11)
+    at WriteStream.Socket._write (net.js:797:8)
+    at writeOrBuffer (_stream_writable.js:352:12)
+    at WriteStream.Writable.write (_stream_writable.js:303:10)
+    at Console.log (/usr/local/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/firebase-tools/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:327:22)
+    at DerivedLogger.EventEmitter.emit (domain.js:486:12)
+    at addChunk (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-04-22T12:34:19.861Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:75:28)
+    at Interface._setRawMode (readline.js:298:16)
+    at Interface.close (readline.js:421:10)
+    at PromptUI.close (/usr/local/lib/node_modules/firebase-tools/node_modules/inquirer/lib/ui/baseUI.js:61:13)
+    at PromptUI.onForceClose (/usr/local/lib/node_modules/firebase-tools/node_modules/inquirer/lib/ui/baseUI.js:38:10)
+    at process.emit (events.js:327:22)
+    at process.exit (internal/process/per_thread.js:169:15)
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/errorOut.js:20:17)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+[error] 
+[error] Error: An unexpected error has occurred.
